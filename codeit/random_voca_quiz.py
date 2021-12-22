@@ -9,6 +9,8 @@ with open("vocabulary.txt","r") as file:
 with open("vocabulary.txt","r") as file:
     for line in file:
         answer = input(f"{line_data_list[random.randint(0, 7)]}: ")
+        # line_data_list의 append 작업을 끝내지 않으면 index가 out of range일 수 있다.
+        # random이기 때문이다.
         if answer == "q":
             break
 
