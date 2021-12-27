@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e648caea-0e0e-403c-98f1-284e2161be30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/10818.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/10871.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/10951.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/10952.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/11021.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/11022.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/2438.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/2439.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/2562.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/2577.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/3052.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/.python-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/1546.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/4344.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/8958.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +62,8 @@
       <recent name="$PROJECT_DIR$/Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3052">
-    <configuration name="10818" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.4344">
+    <configuration name="1546" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,29 +76,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/BaekJoon/10818.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10951" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/BaekJoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/BaekJoon/10951.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/BaekJoon/1546.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,13 +151,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4344" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/BaekJoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/BaekJoon/4344.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4344" />
+        <item itemvalue="Python.1546" />
         <item itemvalue="Python.3052" />
         <item itemvalue="Python.2577" />
         <item itemvalue="Python.2562" />
-        <item itemvalue="Python.10818" />
-        <item itemvalue="Python.10951" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +194,7 @@
       <workItem from="1640180435811" duration="10331000" />
       <workItem from="1640351308824" duration="6623000" />
       <workItem from="1640437271922" duration="9735000" />
+      <workItem from="1640610417325" duration="9768000" />
     </task>
     <servers />
   </component>
@@ -228,6 +220,7 @@
     <SUITE FILE_PATH="coverage/Python_$2739.coverage" NAME="2739 Coverage Results" MODIFIED="1640356768763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$3052.coverage" NAME="3052 Coverage Results" MODIFIED="1640446890105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$2562.coverage" NAME="2562 Coverage Results" MODIFIED="1640442743601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
+    <SUITE FILE_PATH="coverage/Python_$1546.coverage" NAME="1546 Coverage Results" MODIFIED="1640613762917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$2438.coverage" NAME="2438 Coverage Results" MODIFIED="1640437820827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$2742.coverage" NAME="2742 Coverage Results" MODIFIED="1640357793986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$10871.coverage" NAME="10871 Coverage Results" MODIFIED="1640439564733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
@@ -237,6 +230,7 @@
     <SUITE FILE_PATH="coverage/Python_$2577.coverage" NAME="2577 Coverage Results" MODIFIED="1640445014873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$BaekJoon_1330.coverage" NAME="BaekJoon_1330 Coverage Results" MODIFIED="1640352049832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$2884.coverage" NAME="2884 Coverage Results" MODIFIED="1640354962013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
+    <SUITE FILE_PATH="coverage/Python_$4344.coverage" NAME="4344 Coverage Results" MODIFIED="1640618863822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$10951.coverage" NAME="10951 Coverage Results" MODIFIED="1640440680207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$2753.coverage" NAME="2753 Coverage Results" MODIFIED="1640352886257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$BaekJoon_1110.coverage" NAME="BaekJoon_1110 Coverage Results" MODIFIED="1640190689367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Algorithm_p" />
