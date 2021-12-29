@@ -1,11 +1,17 @@
 test_num = int(input())
-score = list(map(int, input().split())) # 총 6개
-# test_num을 받았으니까 이용해야 하는데 어떻게 이용해야 할 지 감이 잡히질 않는다.
-bigger_ave = 0
-for i in range(1, len(score)):
-    ave = sum(score) / score[0]
-    if score[i] > ave:
-        bigger_ave += 1
 
-result = bigger_ave / score[0] * 100
-print(f"{result:0.3f}%")
+for i in range(test_num):
+    input_score = list(map(int, input().split()))
+    # 처음에 받은 숫자만큼의 리스트 개수를 얻기 위함
+
+    avg = sum(input_score[1:])/input_score[0]
+    # 리스트의 0번 인덱싱 값은 점수가 아니기 때문에 1번부터 끝까지 슬라이싱해서 합을 구해야 함
+    # 리스트의 세계는 무궁무진함
+    cnt = 0
+
+    for score in input_score[1:]:
+        if score > avg:
+            cnt += 1
+    rate = cnt / input_score[0] * 100
+    print(f"{rate:.3f}%")
+    # 문자열 포맷팅은 확실히 공부하고 사용 중이라서 이제는 익숙함
