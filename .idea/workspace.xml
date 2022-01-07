@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e648caea-0e0e-403c-98f1-284e2161be30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/1152.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/2908.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/Programmers/해시/전화번호 목록.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,29 @@
       <recent name="$PROJECT_DIR$/Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2908">
+  <component name="RunManager" selected="Python.전화번호 목록">
+    <configuration name="전화번호 목록" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Programmers/해시" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Programmers/해시/전화번호 목록.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="완주하지 못한 선수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,28 +98,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Programmers/해시/완주하지 못한 선수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10809" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/BaekJoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/BaekJoon/10809.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.전화번호 목록" />
         <item itemvalue="Python.2908" />
         <item itemvalue="Python.1152" />
         <item itemvalue="Python.완주하지 못한 선수" />
         <item itemvalue="Python.2675" />
-        <item itemvalue="Python.10809" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +204,7 @@
       <workItem from="1641301002027" duration="887000" />
       <workItem from="1641468938401" duration="6672000" />
       <workItem from="1641523734434" duration="2829000" />
+      <workItem from="1641547858743" duration="4177000" />
     </task>
     <servers />
   </component>
@@ -258,6 +258,7 @@
     <SUITE FILE_PATH="coverage/Python_$1152.coverage" NAME="1152 Coverage Results" MODIFIED="1641524670392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$2753.coverage" NAME="2753 Coverage Results" MODIFIED="1640352886257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$11720.coverage" NAME="11720 Coverage Results" MODIFIED="1640972553766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
+    <SUITE FILE_PATH="coverage/Python_$_.coverage" NAME="전화번호 목록 Coverage Results" MODIFIED="1641554612319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Programmers/해시" />
     <SUITE FILE_PATH="coverage/Python_$2439.coverage" NAME="2439 Coverage Results" MODIFIED="1640438005974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/BaekJoon" />
     <SUITE FILE_PATH="coverage/Python_$voca_quiz.coverage" NAME="voca_quiz Coverage Results" MODIFIED="1640185749887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codeit" />
   </component>
