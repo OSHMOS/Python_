@@ -27,6 +27,22 @@ print(sentence.endswith('a', 0, 9))  # True
 print(sentence.endswith('a', 0, 7))  # False
 
 ### sort(), sorted()
+array1 = [2, 11, 4, 5, 9]
+array1.sort()  # sort()는 원래 배열 자체를 정렬한다.
+print(array1)
+
+array2 = [2, 12, 6, 3, 8]
+new_array = sorted(array2)  # sorted()는 원래 배열의 복사본을 정렬해서 다른 이름을 지어준다.
+print(array2)
+print(new_array)
 
 ### reverse(), reversed()
+array1.reverse()  # 현재 array1은 [2, 4, 5, 9, 11]
+print(array1)  # reverse()는 단순히 역순으로 정렬한다.
+
+rev_array2 = reversed(array2)
+print(array2)
+print(rev_array2)
+print(list(rev_array2))
+
 
