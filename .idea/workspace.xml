@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e648caea-0e0e-403c-98f1-284e2161be30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/1065.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/BaekJoon/1157.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/BaekJoon/1157.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +210,7 @@
       <workItem from="1641645760399" duration="2960000" />
       <workItem from="1641905995664" duration="4372000" />
       <workItem from="1641992143648" duration="7292000" />
+      <workItem from="1642507975407" duration="1168000" />
     </task>
     <servers />
   </component>
