@@ -6,12 +6,12 @@
 
 prize = int(input())
 
-p_500 = prize / 500
+p_500 = int(prize / 500)
 change1 = prize % 500
-p_100 = change1 / 100
+p_100 = int(change1 / 100)
 change2 = change1 % 100
-p_50 = change2 / 50
+p_50 = int(change2 / 50)
 change3 = change2 % 50
-p_10 = change3 / 10
+p_10 = int(change3 / 10)
 
 print(f"동전의 최소 개수 : 500원({p_500}), 100원({p_100}), 50원({p_50}), 10원({p_10})")
