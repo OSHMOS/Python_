@@ -9,10 +9,10 @@ for i in range(N):
 temp = sorted(list, reverse=True)
 
 for i in range(M):
-    result += temp[0]
-    cnt += 1
     if cnt == K-1:
         result += temp[1]
         cnt = 0
-
+    else:
+        result += temp[0]
+        cnt += 1
 print(result)
