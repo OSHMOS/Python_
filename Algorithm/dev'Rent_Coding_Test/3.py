@@ -1,3 +1,3 @@
-sentences = list(input().split(" "))
+sentences = list(input().split())
 
 print(len(sentences))
