@@ -1,12 +1,11 @@
-number = int(input())
-
+num = int(input())
 cnt = 0
-x = 1
-while x <= number:
-    for i in range(len(number) - 1):
-        if number[i+1] - number[i] == number[i-1] - number[i+1]:
+for n in range(1, num+1):
+    if n < 100:
+        cnt += 1
+    elif n >= 100 and n <= 1000:
+        nums = list(map(int, str(num)))
+        if nums[2] - nums[1] == nums[1] - nums[0]:
             cnt += 1
 
 print(cnt)
-
-# 1차 풀이
