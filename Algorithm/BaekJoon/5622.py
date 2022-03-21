@@ -1,3 +1,30 @@
+# 5622 다이얼
+
+# a, b, c
+# 2 => 3초 
+
+# d, e, f
+# 3 => 4초 
+
+# g, h, i
+# 4 => 5초 
+
+# j, k, l
+# 5 => 6초 
+
+# m, n, o
+# 6 => 7초 
+
+# p, q, r, s
+# 7 => 8초 
+
+# t, u, v
+# 8 => 9초 
+
+# w, x, y, z
+# 9 => 10초
+
+# 1
 # str_dial = input()
 # list_dial = list(str_dial)
 
@@ -20,6 +47,8 @@
 #         list_dial[i] = 10
 
 # print(sum(list_dial))
+
+# 2
 # word = input()
 # sum = 0
 # for i in word:
@@ -41,6 +70,8 @@
 #         sum += 10
 
 # print(sum)
+
+# 3
 dial = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
 word = input()
 sum = 0
