@@ -1,5 +1,11 @@
-import area
+# from area import circle, square
+# import area as ar
+# from area import square as sq
 
-print(area.circle(3))
-print(area.square(4))
-print(area.PI)
+from area import *
+
+# print(ar.circle(3))
+# print(ar.sq(4))
+
+print(circle(3))
+print(square(4))
