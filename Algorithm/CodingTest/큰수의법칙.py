@@ -1,5 +1,6 @@
+# 앞으로 주석 쓰는 법을 다시 들여야겠다.
+# 코드 내용이 아무것도 기억이 안난다.
 N, M, K = map(int, input().split())
-list = []
 result = 0
 cnt = 0
 
