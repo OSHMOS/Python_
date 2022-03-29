@@ -8,7 +8,7 @@ class User:
         self.name = name
         self.email = email
         self.password = password
-    
+        
     def say_hello(self):
         # 인사 메세지 출력 메소드
         print(f"안녕하세요! 저는 {self.name}입니다!")
