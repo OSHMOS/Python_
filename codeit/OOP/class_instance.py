@@ -1,7 +1,10 @@
 # 클래스
 # 인스턴스 메소드의 첫 번째 파라미터는 꼭 self로 쓰는 것을 권장함
 class User:
-    def initialize(self, name, email, password):
+    # magic method (special method) 특수 메소드
+    # 인스턴스가 생성될 때 자동으로 호출
+    # 클래스 작성 시 꼭 작성할 것!
+    def __init__(self, name, email, password):
         self.name = name
         self.email = email
         self.password = password
@@ -19,19 +22,15 @@ class User:
     def check_name(self, name):
         # 파라미터로 받는 name이 유저의 이름과 같은지 불 값으로 리턴하는 메소드
         return self.name == name
-        
+
 # 객체 (인스턴스)
-user1 = User()
-user1.initialize("Young", "young@codeit.kr", "123456")
+user1 = User("Young", "young@codeit.kr", "123456")
 
-user2 = User()
-user2.initialize("Yoonsoo", "yoonsoo@codeit.kr", "abcdef")
+user2 = User("Yoonsoo", "yoonsoo@codeit.kr", "abcdef")
 
-user3 = User()
-user3.initialize("Taeho", "taeho@codeit.kr", "123abc")
+user3 = User("Taeho", "taeho@codeit.kr", "123abc")
 
-user4 = User()
-user4.initialize("Lisa", "list@codeit.kr", "abc123")
+user4 = User("Lisa", "list@codeit.kr", "abc123")
 
 # 출력하기
 print(user1.email)
