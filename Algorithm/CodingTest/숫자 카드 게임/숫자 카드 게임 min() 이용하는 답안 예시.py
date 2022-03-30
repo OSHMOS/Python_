@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+
 # N, M을 공백으로 구분하여 입력받기
 n, m = map(int, input().split())
 
@@ -11,3 +14,6 @@ for i in range(n):
     result = max(result, min_value)
 
 print(result) # 최종 답안 출력
+
+end_time = time.time()
+print(f"time : {end_time - start_time}")
