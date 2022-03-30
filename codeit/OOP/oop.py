@@ -1,14 +1,28 @@
-# 데코레이터 : 어떤 함수를 파라미터로 받아서 꾸며준 다음에 리턴해준다.
-def add_print_to(original):
-    def wrapper():
-        print('함수 시작')
-        original()
-        print('함수 끝')
-    return wrapper
+class User:
+    count = 0
 
-@add_print_to
-def print_hello():
-    print('안녕하세요!')
+    def __init__(self, name, email, password):
+        self.name = name
+        self.email = email
+        self.password = password
 
+        User.count += 1
 
-print_hello()
+    def say_hello(self):
+        print(f"안녕하세요! 저는 {self.name}입니다.")
+
+    def __str__(self):
+        return f"사용자 : {self.name}, 이메일 : {self.email}, 비밀번호 : ******"
+
+    # 클래스 메소드
+    @classmethod
+    def number_of_users(cls):
+        print(f"총 유저 수는 : {cls.count}")
+
+user1 = User("강영훈", "younghoon@codeit.kr", "123456")
+user1 = User("이윤수", "yoonsoo@codeit.kr", "abcdef")
+user1 = User("서혜린", "lisa@codeit.kr", "123abc")
+
+# 첫 번째 파라미터로 클래스가 자동 전달
+User.number_of_users()
+user1.number_of_users()
