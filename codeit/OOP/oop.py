@@ -1,33 +1,15 @@
-class User:
-    count = 0
+mutable_object = [1, 2, 3]
+immutable_object = (1, 2, 3)
 
-    def __init__(self, name, email, password):
-        self.name = name
-        self.email = email
-        self.password = password
+mutable_object[0] = 4
+print(mutable_object)
 
-    def say_hello(self):
-        print(f"안녕하세요! 저는 {self.name}입니다.")
+# 불변 타입의 객체 요소는 바꿀 수 없다.
+# immutable_object[0] = 4
+# 불변 타입의 객체 자체의 인스턴스는 바꿀 수 있다.
+immutable_object = (4, 1)
+print(immutable_object)
 
-user1 = User('Young', 'young@codeit.kr', '123456')
-
-print(type(user1))
-
-# 파이썬은 순수 객체 지향 언어이다.
-print(type(2))
-print(type('string'))
-print(type([]))
-print(type({}))
-print(type(()))
-
-def print_hello():
-    print('안녕하세요!')
-
-print(type(print_hello))
-
-int_list = []
-int_list.append(1)
-int_list.append(3)
-int_list.append(7)
-
-print(int_list)
+# 가변 타입 : list, dict, 직접 작성하는 클래스
+# 가변 타입은 새 인스턴스를 만들 필요 없이 원래 인스턴스의 속성을 바꾸면 된다.
+# 불변 타입 : bool, int, float, str, tuple
