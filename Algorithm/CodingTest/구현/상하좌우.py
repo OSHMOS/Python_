@@ -1,6 +1,10 @@
+import time
+
 N = int(input())
 list = list(input().split())
 posX, posY = 1, 1
+
+start_time = time.time()
 
 for i in list:
     if i == 'L':
@@ -18,3 +22,6 @@ for i in list:
         posY += 1
 
 print(posX, posY)
+
+end_time = time.time()
+print(f"time : {end_time - start_time}")
