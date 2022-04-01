@@ -7,6 +7,7 @@ plans = input().split()
 
 start_time = time.time()
 # L, R, U, D에 따른 이동 방향
+# 이 구현이 진짜 대단하다고 생각됨
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
 move_types = ['L', 'R', 'U', 'D']
