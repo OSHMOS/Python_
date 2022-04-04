@@ -23,6 +23,7 @@ class Counter:
             self.value = new_value
         else:
             self.value = 0
+        # self.value = new_value if 0 <= new_value < self.limit else 0
 
 
     def tick(self):
@@ -36,8 +37,7 @@ class Counter:
         if self.value == self.limit:
             self.value = 0
             return True
-        elif self.value < self.limit:
-            return False
+        return False # value가 limit보다 작은 경우밖에 없다
 
 
     def __str__(self):
