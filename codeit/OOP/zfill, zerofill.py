@@ -1,5 +1,0 @@
-print("1".zfill(6))
-print("333".zfill(2))
-print("a".zfill(8))
-print("ab".zfill(8))
-print("abc".zfill(8))
