@@ -43,7 +43,7 @@ class Counter:
         일단 str 함수로 숫자형 변수인 value를 문자열로 변환하고 zfill을 호출한다. 
         """
         return str(self.value).zfill(2)
-        
+
 class Clock:
     """
     시계 클래스
@@ -84,3 +84,36 @@ class Clock:
         예시: "03:11:02"
         """
         return "{}:{}:{}".format(self.hour, self.minute, self.second)
+
+# 초가 60이 넘을 때 분이 늘어나는지 확인하기
+print("시간을 1시 30분 48초로 설정합니다")
+clock = Clock(1, 30, 48)
+print(clock)
+
+# 13초를 늘린다
+print("13초가 흘렀습니다")
+for i in range(13):
+    clock.tick()
+print(clock)
+
+# 분이 60이 넘을 때 시간이 늘어나는지 확인
+print("시간을 2시 59분 58초로 설정합니다")
+clock.set(2, 59, 58)
+print(clock)
+
+# 5초를 늘린다
+print("5초가 흘렀습니다")
+for i in range(5):
+    clock.tick()
+print(clock)
+
+# 시간이 24가 넘을 때 00:00:00으로 넘어가는 지 확인
+print("시간을 23시 59분 57초로 설정합니다")
+clock.set(23, 59, 57)
+print(clock)
+
+# 5초를 늘린다
+print("5초가 흘렀습니다")
+for i in range(5):
+    clock.tick()
+print(clock)
