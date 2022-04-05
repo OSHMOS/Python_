@@ -1,27 +1,31 @@
-# 추상화의 좋은 예시
+# type hinting (강제성 X)
 class BankAccount:
     '''은행 계좌 클래스'''
-    interest = 0.02
+    interest: float = 0.02
 
-    def __init__(self, owner_name, balance): # 함수의 header
+    def __init__(self, owner_name: str, balance: float): # 함수의 header
         '''인스턴스 변수 : name(문자열), balance(실수형)''' # 함수의 body 시작
         self.owner_name = owner_name # 함수의 body
         self.balance = balance
 
-    def deposit(self, amount):
+    def deposit(self, amount: float) -> None:
         '''잔액 인스턴스 변수 balance를 파라미터 amount만큼 늘려주는 메소드'''
         self.balance += amount
 
-    def withdraw(self, amount):
+    def withdraw(self, amount: float) -> None:
         '''잔액 인스턴스 변수 balance를 파라미터 amount만큼 줄여주는 메소드'''
         if self.balance <  amount:
             print("Insufficient balance!")
         else:
             self.balance -= amount
 
-    def add_interest(self):
+    def add_interest(self) -> None:
         '''잔액 인스턴스 변수 balance를 이자율만큼 늘려주는 메소드'''
         self.balance *= 1 + BankAccount.interest
-# docstring은 무조건 body 시작 부분에
-# 클래스의 docstring 한 번에 확인하기 help()
-help(BankAccount)
+
+bank_account = BankAccount('oshmos', '1000')
+# type hinting에 맞지 않게 넣어도 코드가 실행되기는 한다.
+
+print(bank_account.balance) # 1000
+bank_account.deposit('00')
+print(bank_account.balance) # 100000
