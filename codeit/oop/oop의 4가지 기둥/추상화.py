@@ -1,11 +1,19 @@
-# 지금까지 우리는 추상화를 사용하고 있었다.
-# 변수 선언 및 사용, 함수 정의 및 사용, 클래스 사용 모두 추상화이다.
+# 추상화의 안 좋은 예시
+class SomeClass:
+    class_variable = 0.02
 
-# [](리스트)를 이용해서 빈 리스트 인스턴스를 정의한다.
-example_list = []
-example_list.append(3)
-example_list.append(2)
-example_list.append(6)
-print(example_list[0])
-print(example_list[1])
-print(example_list[2])
+    def __init__(self, variable_1, variable_2):
+        self.variable_1 = variable_1
+        self.variable_2 = variable_2
+
+    def method_1(self, some_value):
+        self.variable_2 += some_value
+
+    def method_2(self, some_value):
+        if self.variable_2 < some_value:
+            print("Insufficient balance!")
+        else:
+            self.variable_2 -= some_value
+
+    def method_3(self):
+        self.variable_2 *= 1 + SomeClass.class_variable
