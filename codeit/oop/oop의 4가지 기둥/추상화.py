@@ -23,4 +23,5 @@ class BankAccount:
         '''잔액 인스턴스 변수 balance를 이자율만큼 늘려주는 메소드'''
         self.balance *= 1 + BankAccount.interest
 
-# 클래스를 어떻게 사용할 수 있을지 직관적으로 알 수 있다.
+# 클래스의 docstring 한 번에 확인하기 help()
+help(BankAccount)
