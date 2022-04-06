@@ -1,11 +1,9 @@
 '''
-클래스의 변수나 메소드에
-언더바(_) 2개를 붙여서
-외부에서 접근하지 못하게 할 수 있다.
+캡슐화 정리
+1. 클래스 밖에서 접근 못하게 할 변수, 메소드 정하기
+2. 변수나 메소드 이름 앞에 언더바 2개 붙이기
+3. 변수에 간접 접근할 수 있게 메소드 추가하기 (getter/setter) or 다른 용도의 메소드
 '''
-from multiprocessing.sharedctypes import Value
-
-
 class Citizen:
     '''주민 클래스'''
     drinking_age = 19 # 음주 가능 나이
@@ -25,9 +23,11 @@ class Citizen:
         return self.__age >= Citizen.drinking_age
 
     def get_age(self):
+        '''숨겨 놓은 인스턴스 변수 __age의 값을 받아오는 메소드'''
         return self.__age
 
     def set_age(self, value):
+        '''숨겨 놓은 인스턴스 변수 __age의 값을 설정하는 메소드'''
         self.__age = value
 
     def __str__(self):
