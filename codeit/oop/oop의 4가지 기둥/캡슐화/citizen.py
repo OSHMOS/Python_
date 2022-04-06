@@ -39,11 +39,6 @@ class Citizen:
         return f'{self.name}씨는 {str(self.__age)}살 입니다!'
 
 
-osh = Citizen('oshmos', -26, '12345678')
-print(osh.get_age())
-
-osh.set_age(-10)
-print(osh.get_age())
-
-osh.set_age(26)
-print(osh.get_age())
+osh = Citizen('oshmos', 26, '12345678')
+print(dir(osh))
+print(osh._Citizen__age)
