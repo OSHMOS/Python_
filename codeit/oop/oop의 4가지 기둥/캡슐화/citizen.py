@@ -25,9 +25,11 @@ class Citizen:
         return self.__age >= Citizen.drinking_age
 
     def get_age(self):
+        '''숨겨 놓은 인스턴스 변수 __age의 값을 받아오는 메소드'''
         return self.__age
 
     def set_age(self, value):
+        '''숨겨 놓은 인스턴스 변수 __age의 값을 설정하는 메소드'''
         self.__age = value
 
     def __str__(self):
