@@ -22,16 +22,4 @@ class Cashier(Employee):
 class DeliveryMan(Employee):
     pass
 
-younghoon = Cashier('강영훈', 8900)
-younghoon.raise_pay()
-print(younghoon.wage)
-print(younghoon)
-
-help(Cashier)
-
-jiwoong = DeliveryMan('최지웅', 8900)
-jiwoong.raise_pay()
-print(jiwoong.wage)
-print(jiwoong)
-
-help(DeliveryMan)
+print(Cashier.mro())
