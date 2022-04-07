@@ -17,12 +17,14 @@ class Employee:
         return f'{Employee.company_name} 직원: {self.name}'
 
 class Cashier(Employee):
-    pass
+    raise_percentage = 1.05
+
+    def __init__(self, name, wage, number_sold):
+        super().__init__(name, wage)
+        self.number_sold = number_sold
+
+    def __str__(self):
+        return f'{Cashier.company_name} 계산대 직원: {self.name}'
 
 class DeliveryMan(Employee):
     pass
-
-print(issubclass(Cashier, Employee))
-print(issubclass(Cashier, object))
-print(issubclass(Cashier, Employee))
-print(issubclass(Cashier, list))
