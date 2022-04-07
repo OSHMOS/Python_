@@ -46,7 +46,7 @@ class DeliveryMan(Employee):
         super().__init__(name, wage)
         self.on_standby = on_standby
 
-    def deliver(self, address):
+    def deliver_to(self, address):
         '''배달원이 대기 중이면 주어진 주소로 배달을 보내고 아니면 설명 메시지를 출력한다'''
         if self.on_standby:
             print(f'{address}로 배달 나갑니다!')
@@ -61,29 +61,21 @@ class DeliveryMan(Employee):
     def __str__(self):
         return f'{DeliveryMan.company_name} 배달원: {self.name}'
 
-jiwoong = Cashier('최지웅', 8900, 0)
-jiwoong.raise_pay()
-print(jiwoong.wage)
+class CashierDeliveryMan(Cashier, DeliveryMan):
+    def __init__(self, name, wage, on_standby, number_sold):
+        Employee.__init__(self, name, wage)
+        self.on_standby = on_standby
+        self.number_sold = number_sold
 
-print(jiwoong.take_order(7000))
-print(jiwoong.take_order(3000))
+cashier_and_delivery_man = CashierDeliveryMan("강영훈", 7000, True, 10)
 
-print(jiwoong.burger_price)
-print(Cashier.burger_price)
+cashier_and_delivery_man.take_order(3000)
 
-print(jiwoong.number_sold)
+cashier_and_delivery_man.deliver_to('코드잇 건물 101호')
+cashier_and_delivery_man.deliver_to('코드잇 건물 102호')
+cashier_and_delivery_man.back()
 
-print(jiwoong)
+print(cashier_and_delivery_man)
+# 다중 상속 받는 순서에 따라 출력되는 것이 다르다.
 
-taeho = DeliveryMan('성태호', 7000, True)
-
-taeho.raise_pay()
-print(taeho.wage)
-
-taeho.deliver('서울시 코드잇로 51 최고 건물 401호')
-taeho.deliver('서울시 코드잇로 51 최고 건물 402호')
-
-taeho.back()
-taeho.deliver('서울시 코드잇로 51 최고 건물 402호')
-
-print(taeho)
+print(CashierDeliveryMan.mro())
