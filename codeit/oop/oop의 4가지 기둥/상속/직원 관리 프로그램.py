@@ -40,7 +40,6 @@ class Cashier(Employee):
 
 class DeliveryMan(Employee):
     '''배달원 클래스'''
-    burger_price = 4000
     raise_percentage = 1.03
 
     def __init__(self, name, wage, on_standby):
