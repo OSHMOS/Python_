@@ -28,3 +28,5 @@ class Cashier(Employee):
 
 class DeliveryMan(Employee):
     pass
+
+print(Cashier.mro())
