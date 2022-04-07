@@ -21,12 +21,8 @@ class Cashier(Employee):
 
 class DeliveryMan(Employee):
     pass
-'''
-상속 관계에 있는 두 클래스가 있을 때,
-자식 클래스로 만든 인스턴스는 부모 클래스의 인스턴스이기도 하다는 점을 뜻합니다. 
-이 점은 나중에 ‘다형성’이라는 것을 설명할 때 핵심이 되는 원리입니다.
-'''
-young = Cashier('강영훈', 8900)
-print(isinstance(young, Cashier))
-print(isinstance(young, DeliveryMan))
-print(isinstance(young, Employee))
+
+print(issubclass(Cashier, Employee))
+print(issubclass(Cashier, object))
+print(issubclass(Cashier, Employee))
+print(issubclass(Cashier, list))
