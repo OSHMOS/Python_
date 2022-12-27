@@ -4,7 +4,6 @@ n, k = map(int, stdin.readlin().split())
 s = deque([])
 for i in range(1, n + 1):
     s.append(i)
-# print(s)
 print('<', end='')
 while s:
     for _ in range(k - 1):
