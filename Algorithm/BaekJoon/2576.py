@@ -1,3 +1,4 @@
+# 메모리 : 30616 KB 시간 : 36 ms
 result = []
 for _ in range(7):
     num = int(input())
